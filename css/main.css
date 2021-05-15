@@ -240,7 +240,7 @@ a {
 }
 
 #services-container .services-card .service {
-  max-width: 282px;
+  width: 282px;
   margin: 12px 0;
   border-radius: 8px;
   background-color: rgb(250, 247, 250);

@@ -5,7 +5,23 @@ $(document).ready(() => {
         slidesToScroll: 1,
         dots: true,
         variableWidth: true,
-        mobileFirst: true
+        centerMode: true,
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 479,
+                settings: {
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 280,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $('#gallery-carousel').slick({
@@ -15,7 +31,22 @@ $(document).ready(() => {
         dots: true,
         variableWidth: true,
         centerMode: true,
-        mobileFirst: true
+        mobileFirst: true,
+        responsive: [
+            {
+                breakpoint: 479,
+                settings: {
+                    arrows: true
+                }
+            },
+            {
+                breakpoint: 280,
+                settings: {
+                    slidesToShow: 1,
+                    arrows: false
+                }
+            }
+        ]
     });
 
     $(() => {
@@ -135,6 +166,6 @@ $(document).ready(() => {
     $("#phone-number").mask("+7 (999) 999 — 9999");
 
     $('#main-btn').click(() => {
-        window.location.href='#services';
+        window.location.href = '#services';
     });
 });

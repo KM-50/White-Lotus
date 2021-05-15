@@ -13,6 +13,7 @@
         right: 36%;
     }
 }
+
 @media screen and (max-width: 1366px) {
     #gallery .slick-prev {
         left: 33%;
@@ -42,9 +43,12 @@
     }
 
     #services-container .services-card {
+        justify-content: center;
         flex-wrap: wrap;
-        margin: 0 auto;
-        max-width: 60%;
+    }
+
+    #services-container .services-card .service {
+        margin: 20px 12px;
     }
 
     #staff-cards-container .staff-cards .slick-prev {
@@ -106,12 +110,16 @@
         margin-left: 0;
     }
 
+    #advantages-container {
+        padding-bottom: 60px;
+    }
+
     #advantages-container .advantages .advantages-block .advantage.row {
         margin-left: 100px;
     }
 
-    #services-container .services-card {
-        max-width: 80%;
+    #circle-2 {
+        display: none;
     }
 
     #staff-cards-container .staff-cards .slick-prev {
@@ -120,6 +128,10 @@
 
     #staff-cards-container .staff-cards .slick-next {
         right: 30%;
+    }
+
+    #stock-container {
+        width: 90%;
     }
 
     #gallery .slick-prev {
@@ -166,13 +178,12 @@
         display: none;
     }
 
-    #advantages-container .advantages .advantages-block .advantage.row {
-        margin-left: 0;
+    #advantages-container {
+        padding-bottom: 100px;
     }
 
-    #services-container .services-card {
-        justify-content: center;
-        max-width: 100%;
+    #advantages-container .advantages .advantages-block .advantage.row {
+        margin-left: 0;
     }
 
     #staff-cards-container .staff-cards .slick-prev {
@@ -222,12 +233,6 @@
 
     #footer-hrefs, #footer-container .logo, #operating-mode, #footer-container .phone-btn {
         margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    #services-container .services-card {
-        justify-content: space-around;
     }
 }
 
@@ -349,7 +354,7 @@
         font-size: 24px;
     }
 
-    #advantages-container .advantages {
+    #advantages, #services-title, #staff-cards, #services-text, #stock, #gallery, #answers-title, #contacts {
         text-align: center;
     }
 
@@ -362,12 +367,16 @@
         margin-bottom: 20px;
     }
 
-    #staff-cards-container .staff-cards .slick-prev {
-        left: 1%;
+    #stock {
+        background-position: top right;
     }
 
-    #staff-cards-container .staff-cards .slick-next {
-        right: 1%;
+    #stock-text {
+        margin: 0 auto 30px auto;
+    }
+
+    #staff-cards-container {
+        padding-top: 60px;
     }
 
     #circle-2, #answers-decor2 {
@@ -378,12 +387,17 @@
         width: 290px;
     }
 
-    #gallery .slick-prev, #gallery .slick-next {
-        display: none;
+    #gallery, #answers-container {
+        padding-bottom: 60px;
     }
 
-    #advantages-container, #gallery, #answers-container {
-        padding-bottom: 60px;
+    .mfp-bottom-bar {
+        padding: 14px 10px;
+    }
+
+    button.mfp-close:after {
+        top: -20px;
+        right: 35px;
     }
 
     #answers-content .ui-accordion .ui-accordion-header {
@@ -395,8 +409,26 @@
         right: 15px;
     }
 
+    #contacts-container {
+       justify-content: center;
+    }
+
+    #contacts-info .info {
+        margin-right: 0;
+    }
+
+    #contacts-information {
+        padding-left: 0;
+    }
+
     #map iframe {
         width: 290px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    #advantages-container .advantages .advantages-block .advantage .icon {
+        margin-right: 0;
     }
 }
 
@@ -432,15 +464,6 @@
         width: 250px;
     }
 
-    .mfp-bottom-bar {
-        padding: 14px 10px;
-    }
-
-    button.mfp-close:after {
-        top: -20px;
-        right: 35px;
-    }
-
     #contacts-info .info {
         margin-right: 0;
     }
@@ -453,7 +476,7 @@
         width: 260px;
     }
 
-    #main-container, #advantages-container, #services-title, #services-text, #stock-container, #staff-cards-container, #gallery-container, #answers-title, #contacts {
+    #main-container, #advantages-container {
         text-align: center;
     }
 }
