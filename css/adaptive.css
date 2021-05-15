@@ -1,0 +1,459 @@
+@media screen and (min-width: 1921px) {
+    #main, #stock {
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 1441px) {
+    #gallery .slick-prev {
+        left: 36%;
+    }
+
+    #gallery .slick-next {
+        right: 36%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    #gallery .slick-prev {
+        left: 33%;
+    }
+
+    #gallery .slick-next {
+        right: 33%;
+    }
+}
+
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 95%;
+    }
+
+    #advantages-container .advantages {
+        justify-content: center;
+    }
+
+    #advantages-container .advantages .advantages-block {
+        margin-right: 50px;
+    }
+
+    #advantages-container .advantages .advantages-block .advantage.row {
+        padding-left: 0;
+    }
+
+    #services-container .services-card {
+        flex-wrap: wrap;
+        margin: 0 auto;
+        max-width: 60%;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev {
+        left: 35%;
+    }
+
+    #staff-cards-container .staff-cards .slick-next {
+        right: 35%;
+    }
+
+    #gallery .slick-prev {
+        left: 30%;
+    }
+
+    #gallery .slick-next {
+        right: 30%;
+    }
+
+    #answers {
+        height: auto;
+    }
+
+    #answers-content {
+        justify-content: center;
+    }
+
+    #contacts-container {
+        align-items: center;
+    }
+
+    #contacts-operating-mode, #contacts-tel {
+        padding-left: 100px;
+    }
+
+    #map iframe {
+        width: 590px;
+    }
+
+    #footer-hrefs {
+        margin-right: 130px;
+    }
+}
+
+/*768 - 1023*/
+@media screen and (max-width: 1023px) {
+    #header-container {
+        justify-content: space-between;
+    }
+
+    #header-menu {
+        margin-right: 0;
+    }
+
+    #header-menu .menu {
+        margin-right: 24px;
+    }
+
+    #header-container .phone-btn {
+        margin-left: 0;
+    }
+
+    #advantages-container .advantages .advantages-block .advantage.row {
+        margin-left: 100px;
+    }
+
+    #services-container .services-card {
+        max-width: 80%;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev {
+        left: 30%;
+    }
+
+    #staff-cards-container .staff-cards .slick-next {
+        right: 30%;
+    }
+
+    #gallery .slick-prev {
+        left: 25%;
+    }
+
+    #gallery .slick-next {
+        right: 25%;
+    }
+
+    #contacts-container {
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    #contacts-info .info {
+        flex-wrap: wrap;
+    }
+
+    #map iframe {
+        width: 450px;
+    }
+
+    #operating-mode {
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    #map iframe {
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 870px) {
+    #operating-mode {
+        margin-left: 106px;
+    }
+}
+
+/*580 - 767*/
+@media screen and (max-width: 767px) {
+    #header-container .phone-btn {
+        display: none;
+    }
+
+    #advantages-container .advantages .advantages-block .advantage.row {
+        margin-left: 0;
+    }
+
+    #services-container .services-card {
+        justify-content: center;
+        max-width: 100%;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev {
+        left: 25%;
+    }
+
+    #staff-cards-container .staff-cards .slick-next {
+        right: 25%;
+    }
+
+    #gallery .slick-prev {
+        left: 15%;
+    }
+
+    #gallery .slick-next {
+        right: 15%;
+    }
+
+    #contacts-container {
+        flex-wrap: wrap;
+    }
+
+    #map {
+        margin: 0 auto;
+    }
+
+    #map iframe {
+        width: 450px;
+    }
+
+    #footer-container {
+        flex-direction: column;
+        padding-bottom: 7px;
+    }
+
+    #footer-hrefs {
+        margin-right: 0;
+    }
+
+    #footer-hrefs a {
+        margin: 0 15px;
+    }
+
+    #operating-mode, #footer-container .phone-btn {
+        margin-left: 0;
+    }
+
+    #footer-hrefs, #footer-container .logo, #operating-mode, #footer-container .phone-btn {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #services-container .services-card {
+        justify-content: space-around;
+    }
+}
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+    #advantages-container .advantages .advantages-block {
+        margin-right: 0;
+    }
+
+    #burger {
+        display: block;
+    }
+
+    #burger svg {
+        width: 50px;
+        height: 50px;
+        fill: rgb(67, 6, 57);
+    }
+
+    #header-menu svg {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        fill: white;
+        cursor: pointer;
+    }
+
+    #header-container {
+        max-width: 100%;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    #header-container.menu-open #header-menu {
+        display: flex;
+        background-color: rgba(37, 24, 31, 0.9);
+    }
+
+    #header-menu {
+        display: none;
+        position: fixed;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin: 0;
+        padding: 20px 30px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
+    #header-menu .menu, #header-menu .menu.active {
+        margin: 10px 0;
+        font-size: 30px;
+        color: white;
+    }
+
+    #header-menu .menu.active, #header-menu .menu:hover {
+        border: none;
+    }
+
+    #services-decor, #answers-decor, #contacts-lavender {
+        display: none;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev {
+        left: 20%;
+    }
+
+    #staff-cards-container .staff-cards .slick-next {
+        right: 20%;
+    }
+
+    #answers-content .ui-accordion .ui-accordion-header {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    #gallery .slick-prev {
+        left: 10%;
+    }
+
+    #gallery .slick-next {
+        right: 10%;
+    }
+
+    #contacts-container {
+        padding-bottom: 100px;
+    }
+
+    #map iframe {
+        width: 400px;
+    }
+
+    #reservation-container {
+        padding: 60px 30px;
+        width: 300px;
+    }
+
+    #reservation-close {
+        top: -65px;
+        right: 0;
+    }
+}
+
+/*320 - 479*/
+@media screen and (max-width: 479px) {
+    #main-title {
+        font-size: 24px;
+    }
+
+    #header-menu .menu, #header-menu .menu.active {
+        font-size: 24px;
+    }
+
+    #advantages-container .advantages {
+        text-align: center;
+    }
+
+    #advantages-container .advantages .advantages-block .advantage {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #advantages-container .advantages .advantages-block .advantage .icon {
+        margin-bottom: 20px;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev {
+        left: 1%;
+    }
+
+    #staff-cards-container .staff-cards .slick-next {
+        right: 1%;
+    }
+
+    #circle-2, #answers-decor2 {
+        display: none;
+    }
+
+    #reservation-container {
+        width: 290px;
+    }
+
+    #gallery .slick-prev, #gallery .slick-next {
+        display: none;
+    }
+
+    #advantages-container, #gallery, #answers-container {
+        padding-bottom: 60px;
+    }
+
+    #answers-content .ui-accordion .ui-accordion-header {
+        padding-left: 15px;
+        padding-right: 50px;
+    }
+
+    #answers-content .ui-accordion .ui-icon {
+        right: 15px;
+    }
+
+    #map iframe {
+        width: 290px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 479px) {
+    #map iframe {
+        width: 350px;
+    }
+}
+
+/*280 - 319*/
+@media screen and (max-width: 319px) {
+    #main-container {
+        padding-top: 90px;
+    }
+
+    #main-title {
+        font-size: 32px;
+    }
+
+    #services-container .services-card .service {
+        width: 250px;
+    }
+
+    #services-container .services-card .service .service-img img {
+        width: 100%;
+    }
+
+    #staff-cards-container .staff-cards .slick-prev, #staff-cards-container .staff-cards .slick-next {
+        display: none;
+    }
+
+    #reservation-container {
+        width: 250px;
+    }
+
+    .mfp-bottom-bar {
+        padding: 14px 10px;
+    }
+
+    button.mfp-close:after {
+        top: -20px;
+        right: 35px;
+    }
+
+    #contacts-info .info {
+        margin-right: 0;
+    }
+
+    #contacts-information {
+        padding-left: 0;
+    }
+
+    #map iframe {
+        width: 260px;
+    }
+
+    #main-container, #advantages-container, #services-title, #services-text, #stock-container, #staff-cards-container, #gallery-container, #answers-title, #contacts {
+        text-align: center;
+    }
+}
