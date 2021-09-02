@@ -103,8 +103,10 @@
         margin-right: 0;
     }
 
-    #advantages-title {
+    #advantages-title, #services-title, #staff-cards-title, #staff-cards-text, #services-text, #gallery, #gallery-text, #answers-title, #operating-mode-phone {
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -141,19 +143,12 @@
         width: auto;
     }
 
-    #services-title, #staff-cards-title, #staff-cards-text, #services-text, #stock, #gallery, #answers-title, #operating-mode-phone {
+    #stock {
+        background-position: top right;
         text-align: center;
     }
 
-    #stock {
-        background-position: top right;
-    }
-
-    #stock-text {
-        margin: 0 auto 30px auto;
-    }
-
-    #staff-cards-text {
+    #staff-cards-text, #stock-text {
         margin-left: auto;
         margin-right: auto;
     }
