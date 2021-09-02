@@ -5,19 +5,19 @@ $(document).ready(() => {
         slidesToScroll: 1,
         dots: true,
         variableWidth: true,
-        centerMode: true,
         mobileFirst: true,
         responsive: [
             {
-                breakpoint: 479,
+                breakpoint: 1199,
                 settings: {
+                    slidesToScroll: 3,
                     arrows: true
                 }
             },
             {
                 breakpoint: 280,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     arrows: false
                 }
             }
@@ -34,15 +34,16 @@ $(document).ready(() => {
         mobileFirst: true,
         responsive: [
             {
-                breakpoint: 479,
+                breakpoint: 1199,
                 settings: {
                     arrows: true
                 }
             },
             {
-                breakpoint: 280,
+                breakpoint: 279,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 1,
                     arrows: false
                 }
             }
@@ -162,8 +163,8 @@ $(document).ready(() => {
         $('#header-container').removeClass('menu-open');
     });
 
-    $("#phone").mask("+7 (999) 999 — 9999");
-    $("#phone-number").mask("+7 (999) 999 — 9999");
+    $("#phone").mask("+7 (999) 999-99-99");
+    $("#phone-number").mask("+7 (999) 999-99-99");
 
     $('#main-btn').click(() => {
         window.location.href = '#services';

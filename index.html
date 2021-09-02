@@ -31,10 +31,18 @@
                      viewBox="0 0 348.333 348.334" xml:space="preserve">
                     <path d="M336.559,68.611L231.016,174.165l105.543,105.549c15.699,15.705,15.699,41.145,0,56.85c-7.844,7.844-18.128,11.769-28.407,11.769c-10.296,0-20.581-3.919-28.419-11.769L174.167,231.003L68.609,336.563c-7.843,7.844-18.128,11.769-28.416,11.769c-10.285,0-20.563-3.919-28.413-11.769c-15.699-15.698-15.699-41.139,0-56.85l105.54-105.549L11.774,68.611c-15.699-15.699-15.699-41.145,0-56.844c15.696-15.687,41.127-15.687,56.829,0l105.563,105.554L279.721,11.767c15.705-15.687,41.139-15.687,56.832,0C352.258,27.466,352.258,52.912,336.559,68.611z"/>
                 </svg>
-                <a href="#services" class="menu active">Услуги</a>
-                <a href="#staff-cards" class="menu">Мастера</a>
-                <a href="#gallery" class="menu">Галерея фото</a>
-                <a href="#answers" class="menu">FAQ</a>
+                <div>
+                    <a href="#services" class="menu">Услуги</a>
+                </div>
+                <div>
+                    <a href="#staff-cards" class="menu">Мастера</a>
+                </div>
+                <div>
+                    <a href="#gallery" class="menu">Галерея фото</a>
+                </div>
+                <div>
+                    <a href="#answers" class="menu">FAQ</a>
+                </div>
             </div>
             <div class="logo">
                 <a href="#">
@@ -52,8 +60,8 @@
             Территория умиротворения и красоты в <span>White Lotus</span>
         </div>
         <div id="main-text" class="text">
-            Наши программы направлены на релаксацию и комплексное оздоровление организма, а наши мастера —
-            квалифицированные специалисты с медицинским образованием.
+            Наши программы направлены на релаксацию <br> и комплексное оздоровление организма, а наши <br> мастера —
+            квалифицированные специалисты <br> с медицинским образованием.
         </div>
         <div id="main-btn" class="hvr-grow">
             <button type="button" class="btn">Выбрать SPA-программу</button>
@@ -98,7 +106,7 @@
                         <img src="images/icon-spa4.png" alt="">
                     </div>
                     <div class="advantage-text text">
-                        Щедрая программа лояльности для постоянных гостей и наличие сезонных акций
+                        Щедрая программа лояльности <br> для постоянных гостей <br> и наличие сезонных акций
                     </div>
                 </div>
             </div>
@@ -106,6 +114,7 @@
     </div>
     <img src="images/advantages-decor.png" alt="" id="advantages-decor">
     <img src="images/advantages-decor2.png" alt="" id="advantages-decor2">
+    <img src="images/advantages-decor3.png" alt="" id="advantages-decor3">
 </div>
 
 <div id="services">
@@ -133,7 +142,7 @@
                         <div class="service-price">
                             от 3 700 руб.
                         </div>
-                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow">Записаться</button>
+                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow" data-id="massage-with-stones">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -154,7 +163,7 @@
                         <div class="service-price">
                             от 3 100 руб.
                         </div>
-                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow">Записаться</button>
+                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow" data-id="bali-massage">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -175,7 +184,7 @@
                         <div class="service-price">
                             от 5 700 руб.
                         </div>
-                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow">Записаться</button>
+                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow" data-id="with-herbal-pouches">Записаться</button>
                     </div>
                 </div>
             </div>
@@ -196,13 +205,14 @@
                         <div class="service-price">
                             от 4 800 руб.
                         </div>
-                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow">Записаться</button>
+                        <button type="button" class="btn service-btn open-modal hvr-grow-shadow" data-id="anti-cellulite-massage">Записаться</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <img src="images/services-decor.png" alt="" id="services-decor">
+    <img src="images/services-decor2.png" alt="" id="services-decor2">
     <img src="images/lavender.png" alt="" id="lavender">
 </div>
 
@@ -214,16 +224,16 @@
         <div class="hvr-bounce-in">
             <button type="button" class="btn open-modal">Записаться на ритуал</button>
         </div>
-        <img src="images/circle.png" alt="" id="circle">
-        <img src="images/circle2.png" alt="" id="circle-2">
-        <img src="images/stock-decor.png" alt="" id="stock-decor">
     </div>
+    <img src="images/circle.png" alt="" id="circle">
+    <img src="images/circle2.png" alt="" id="circle-2">
+    <img src="images/stock-decor.png" alt="" id="stock-decor">
 </div>
 
 <div id="staff-cards">
-    <div id="staff-cards-container" class="container wow animate__fadeInDown">
+    <div id="staff-cards-container" class="container">
         <div id="staff-cards-title" class="titles">Наши мастера</div>
-        <div id="staff-cards-text" class="text">
+        <div id="staff-cards-text" class="text wow animate__fadeInDown">
             Все мастера спа-салонов «White Lotus» обучаются в Таиланде и на о. Бали, проходят
             строгий отбор и владеют секретами многовековых традиций тайских и балинезийских методик оздоровления.
         </div>
@@ -296,13 +306,14 @@
             </div>
         </div>
     </div>
-    <img src="images/masters-gallery-decor.png" alt="" id="masters-gallery-decor">
+    <img src="images/masters-decor.png" alt="" id="masters-decor">
 </div>
 
 <div id="gallery">
-    <div id="gallery-container" class="container wow animate__fadeInDown">
+    <img src="images/gallery-decor3.png" alt="" id="gallery-decor3">
+    <div id="gallery-container" class="container">
         <div id="gallery-titles" class="titles">Галерея фото</div>
-        <div id="gallery-text" class="text">
+        <div id="gallery-text" class="text wow animate__fadeInDown">
             Убедитесь, что наши массажные комнаты выглядят так, как вам нравится, чтобы в наших салонах вы смогли
             расслабиться и получить настоящее удовольствие от наших программ.
         </div>
@@ -481,7 +492,7 @@
                     <path d="m399.34375 96.300781c-6.257812 0-11.351562 5.09375-11.351562 11.351563 0 6.257812 5.09375 11.351562 11.351562 11.351562 6.261719 0 11.355469-5.089844 11.355469-11.351562 0-6.261719-5.09375-11.351563-11.355469-11.351563zm0 0"/>
                 </svg>
             </a>
-            <a href="https://www.youtube.com" target="_blank" id="youtube" class="hvr-grow" >
+            <a href="https://www.youtube.com" target="_blank" id="youtube" class="hvr-grow">
                 <svg viewBox="-21 -117 682.66672 682" xmlns="http://www.w3.org/2000/svg">
                     <path d="m626.8125 64.035156c-7.375-27.417968-28.992188-49.03125-56.40625-56.414062-50.082031-13.703125-250.414062-13.703125-250.414062-13.703125s-200.324219 0-250.40625 13.183593c-26.886719 7.375-49.03125 29.519532-56.40625 56.933594-13.179688 50.078125-13.179688 153.933594-13.179688 153.933594s0 104.378906 13.179688 153.933594c7.382812 27.414062 28.992187 49.027344 56.410156 56.410156 50.605468 13.707031 250.410156 13.707031 250.410156 13.707031s200.324219 0 250.40625-13.183593c27.417969-7.378907 49.03125-28.992188 56.414062-56.40625 13.175782-50.082032 13.175782-153.933594 13.175782-153.933594s.527344-104.382813-13.183594-154.460938zm-370.601562 249.878906v-191.890624l166.585937 95.945312zm0 0"/>
                 </svg>
@@ -493,11 +504,13 @@
                 <div class="logo-text">Массажный салон</div>
             </a>
         </div>
-        <div id="operating-mode" class="text">
-            Ежедневно с 9:00 до 22:00
-        </div>
-        <div class="phone-btn hvr-buzz-out">
-            <button type="button" class="phone">+7 (981) 458-85-96</button>
+        <div id="operating-mode-phone">
+            <div id="operating-mode" class="text">
+                Ежедневно с 9:00 до 22:00
+            </div>
+            <div class="phone-btn hvr-buzz-out">
+                <button type="button" class="phone">+7 (981) 458-85-96</button>
+            </div>
         </div>
     </div>
 </div>
@@ -521,10 +534,10 @@
                 <div class="select">
                     <select name="ritual" id="ritual" class="text input" required>
                         <option value="Выберите ритуал" disabled selected>Выберите ритуал</option>
-                        <option value="Массаж камнями">Массаж камнями</option>
-                        <option value="Балийский массаж">Балийский массаж</option>
-                        <option value="С травяными мешочками">С травяными мешочками</option>
-                        <option value="Антицеллюлитный массаж">Антицеллюлитный массаж</option>
+                        <option value="massage-with-stones">Массаж камнями</option>
+                        <option value="bali-massage">Балийский массаж</option>
+                        <option value="with-herbal-pouches">С травяными мешочками</option>
+                        <option value="anti-cellulite-massage">Антицеллюлитный массаж</option>
                     </select>
                     <div class="text-error">Выбирете ритуал</div>
                 </div>
